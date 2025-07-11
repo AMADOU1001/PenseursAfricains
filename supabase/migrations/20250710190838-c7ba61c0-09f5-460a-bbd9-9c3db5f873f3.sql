@@ -1,0 +1,6 @@
+-- Insérer les 4 nouvelles vidéos
+INSERT INTO public.media_gallery (id, title, description, type, media_url, event_date, uploaded_at) VALUES
+('11111111-1111-1111-1111-111111111111', 'Thomas Sankara – Discours à l''ONU', 'Discours historique de Thomas Sankara à l''ONU, prononcé le 4 octobre 1984.', 'video', 'https://www.youtube.com/watch?v=6ihzVYMHfaQ', '1984-10-04', now()),
+('22222222-2222-2222-2222-222222222222', 'Nelson Mandela – I Am Prepared To Die', 'Extrait du discours de Nelson Mandela lors du procès de Rivonia, 20 avril 1964.', 'video', 'https://www.youtube.com/watch?v=9Xg-E0LclYg', '1964-04-20', now()),
+('33333333-3333-3333-3333-333333333333', 'Kwame Nkrumah – Discours du 6 mars 1957', 'Discours de Kwame Nkrumah lors de l''indépendance du Ghana, 6 mars 1957.', 'video', 'https://www.youtube.com/watch?v=YLlxzANMRDI', '1957-03-06', now()),
+('44444444-4444-4444-4444-444444444444', 'Patrice Lumumba – Discours d''indépendance', 'Discours de Patrice Lumumba lors de la cérémonie d''indépendance de la RDC, 30 juin 1960.', 'video', 'https://www.youtube.com/watch?v=Xh9c62PRwqo', '1960-06-30', now());

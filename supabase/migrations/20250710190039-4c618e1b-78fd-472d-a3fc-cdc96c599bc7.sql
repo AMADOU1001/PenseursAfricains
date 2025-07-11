@@ -1,0 +1,7 @@
+INSERT INTO public.media_gallery (id, title, description, type, media_url, event_date) VALUES
+(gen_random_uuid(), 'Indépendance du Ghana', 'Le 6 mars 1957, le Ghana devient le premier pays d''Afrique subsaharienne à obtenir l''indépendance.', 'event', 'https://upload.wikimedia.org/wikipedia/commons/e/e4/Osagyefo_Dr._Kwame_Nkrumah_Independence_Speech.jpg', '1957-03-06'),
+(gen_random_uuid(), 'Discours de Thomas Sankara à l''ONU', 'Le 4 octobre 1984, Thomas Sankara s''adresse à l''ONU avec un discours anticolonial mémorable.', 'video', 'https://www.youtube.com/watch?v=4R8GJsyb1wA', '1984-10-04'),
+(gen_random_uuid(), 'Carte du royaume du Mali au XIVe siècle', 'Représentation cartographique du puissant empire de Mansa Moussa.', 'image', 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Africa_Mansa_Musa.jpg/800px-Africa_Mansa_Musa.jpg', NULL),
+(gen_random_uuid(), 'La Marche de Soweto', 'Des milliers d''étudiants protestent contre l''apartheid en 1976.', 'image', 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Soweto_uprising_student_march.jpg', '1976-06-16'),
+(gen_random_uuid(), 'Couronnement de Haïlé Sélassié', 'Le 2 novembre 1930, Haïlé Sélassié est couronné Empereur d''Éthiopie.', 'event', 'https://upload.wikimedia.org/wikipedia/commons/3/3c/HIM_Haile_Selassie_I.jpg', '1930-11-02'),
+(gen_random_uuid(), 'Drapeau de l''Organisation de l''unité africaine (OUA)', 'L''OUA a été fondée le 25 mai 1963 à Addis-Abeba.', 'image', 'https://upload.wikimedia.org/wikipedia/commons/5/51/Flag_of_OAU.svg', '1963-05-25');
